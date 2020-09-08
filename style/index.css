@@ -96,9 +96,21 @@ html {
   font-size: 62.5%;
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    background-color: red;
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: lightpink;
+  }
+}
 body {
   line-height: 1.5;
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 a {
@@ -109,7 +121,7 @@ h1 {
   color: red;
   text-align: center;
   margin: 2%;
-  font-size: 7rem;
+  font-size: 6rem;
 }
 
 #home nav {
@@ -120,7 +132,7 @@ h1 {
 
 nav a {
   width: 12%;
-  font-size: 2rem;
+  font-size: 1.7rem;
   padding: 1%;
   border: 2px solid blue;
 }
@@ -129,13 +141,13 @@ h2 {
   color: black;
   text-align: center;
   margin: 3%;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .about p {
   text-align: center;
   color: black;
-  font-size: 2rem;
+  font-size: 1.5rem;
   width: 75%;
   margin: auto;
 }
@@ -146,7 +158,7 @@ h2 {
 
 h3 {
   color: black;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .projectbox img {
@@ -173,6 +185,7 @@ h3 {
   color: white;
   width: 10%;
   height: 2%;
+  margin: auto;
 }
 
 footer {
